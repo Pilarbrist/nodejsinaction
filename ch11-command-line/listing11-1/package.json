@@ -10,6 +10,6 @@
   "author": "Bradley Meck",
   "license": "MIT",
   "dependencies": {
-    "yargs": "^4.4.0"
+    "yargs": "^13.2.4"
   }
 }
