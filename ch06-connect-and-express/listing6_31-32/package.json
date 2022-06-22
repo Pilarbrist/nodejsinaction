@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "basic-auth": "^1.0.3",
@@ -17,6 +19,8 @@
     "jade": "~1.11.0",
     "morgan": "~1.6.1",
     "redis": "^2.4.2",
-    "serve-favicon": "~2.3.0"
-  }
+    "serve-favicon": "~2.4.5",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
