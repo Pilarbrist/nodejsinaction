@@ -11,6 +11,6 @@
   "dependencies": {
     "body-parser": "^1.11.0",
     "connect": "^3.3.4",
-    "connect-multiparty": "^1.2.5"
+    "connect-multiparty": "^2.1.0"
   }
 }
