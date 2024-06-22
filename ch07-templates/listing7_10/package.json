@@ -10,6 +10,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "pug": "^2.0.0-beta6"
+    "pug": "^3.0.0"
   }
 }
