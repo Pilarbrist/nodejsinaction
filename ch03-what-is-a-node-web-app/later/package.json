@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.13.2",
-    "bootstrap": "3.3.7",
+    "bootstrap": "5.0.0",
     "ejs": "2.5.2",
     "express": "^4.13.1",
     "node-readability": "2.2.0",
